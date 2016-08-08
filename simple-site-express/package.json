@@ -1,0 +1,19 @@
+{
+  "name": "simple-site-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "private": "true",
+  "dependencies": {
+    "express": "3.0.0alpha4",
+    "jade": "^1.0.4",
+    "stylus": "^0.49.1",
+    "nib": "^1.0.4"
+  }
+}
