@@ -1,0 +1,15 @@
+extend layout
+
+block content
+	form(action="/index", method="POST")
+		div
+			label Enter a task to do
+			input(type="text", name="name")
+		div
+		input(type="submit",value="Add Task")
+	
+	ol
+		each task, i in tasks
+			li #{task.name}
+				a.delete(href="/index?id=#{task.id}") Delete task
+				a.done(href="/index/#{task.id}") Task done it
